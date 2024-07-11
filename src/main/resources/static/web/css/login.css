@@ -1,0 +1,81 @@
+/* Đặt background và căn giữa nội dung */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f6f6f6;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background-color: white;
+    width: 360px;
+    padding: 20px;
+  }
+  
+  /* Định dạng cho tiêu đề */
+  h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Tùy chỉnh cho form nhập liệu */
+  #formContent {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    font-size: 16px;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  /* Định dạng nút đăng nhập */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Liên kết quên mật khẩu và đăng ký */
+  #formFooter {
+    margin-top: 16px;
+    padding: 10px 20px;
+  }
+  
+  a.underlineHover {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  a.underlineHover:hover {
+    text-decoration: underline;
+  }
+  
+  /* Phong cách khi tập trung vào input */
+  input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #719ECE;
+  }
+  
